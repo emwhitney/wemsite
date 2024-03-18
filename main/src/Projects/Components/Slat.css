@@ -1,0 +1,27 @@
+.slat {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    flex-shrink: 1;
+  }
+
+  .spacer {
+    width: 10rem;
+  }
+  
+  .project-info {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .project-name {
+    font-weight: bold;
+  }
+  
+  .project-description {
+    font-size: 0.8em;
+  }

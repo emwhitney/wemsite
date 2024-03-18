@@ -1,0 +1,14 @@
+/* FILEPATH: /Users/ewhitney/Desktop/wemsite/wemsite/src/Header.css */
+
+.header-container {
+    margin: 0 auto 3em;
+    width: 37em;
+    max-width: 1000px;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    color: black;
+}

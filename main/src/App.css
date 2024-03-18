@@ -1,0 +1,11 @@
+.App {
+  margin: 30px;
+}
+
+.content {
+  display: block;
+  max-width: 1000px;
+  width: 37em;
+  margin-left: auto;
+  margin-right: auto;
+}

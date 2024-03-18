@@ -1,0 +1,52 @@
+.button-container {
+    display: flex;
+    justify-content: space-around; /* This will space out the buttons evenly */
+    align-items: center; /* This will vertically center the buttons */
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font: inherit;
+}
+
+.input-box:focus {
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between; /* This will add space between the input box and the button */
+    align-items: center; /* This will vertically center the input box and the button */
+}
+
+.modern-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 172, 146, 1);;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+.clear-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.modern-button:hover {
+    background-color: rgba(0, 152, 126, 1);
+}
+
+.modern-button:active {
+    background-color:rgba(0, 132, 106, 1);
+}
