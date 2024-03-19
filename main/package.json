@@ -18,7 +18,7 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "dev": "npm run build && nodemon server/index.js",
-    "build": "react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
